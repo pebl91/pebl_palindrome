@@ -1,0 +1,31 @@
+PATH
+  remote: .
+  specs:
+    pebl_palindrome (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ansi (1.5.0)
+    builder (3.2.4)
+    minitest (5.15.0)
+    minitest-reporters (1.2.0)
+      ansi
+      builder
+      minitest (>= 5.0)
+      ruby-progressbar
+    rake (12.3.3)
+    ruby-progressbar (1.11.0)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  bundler (~> 2.1)
+  minitest (~> 5.0)
+  minitest-reporters (= 1.2.0)
+  pebl_palindrome!
+  rake (~> 12.0)
+
+BUNDLED WITH
+   2.1.4
